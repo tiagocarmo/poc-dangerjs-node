@@ -2,22 +2,16 @@
   "name": "poc-dangerjs-node",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dangerfile.js",
   "engines": {
     "npm": "6.14.8",
     "node": "14.17.5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tiagocarmo/poc-dangerjs-node.git"
   },
-  "author": "",
+  "author": "Tiago Carmo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tiagocarmo/poc-dangerjs-node/issues"
