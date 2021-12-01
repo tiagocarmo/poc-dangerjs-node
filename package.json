@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "npm": "6.14.8",
+    "node": "14.17.5"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -20,11 +24,9 @@
   },
   "homepage": "https://github.com/tiagocarmo/poc-dangerjs-node#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "danger": "^10.7.1"
   },
-  "dependencies": {
-    "next": "^12.0.4",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+  "dependencies": {}
 }
