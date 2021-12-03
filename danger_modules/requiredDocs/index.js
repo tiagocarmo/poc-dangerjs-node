@@ -1,4 +1,4 @@
-const findFile = (list, fileName) => list.find((file) => file.includes(fileName));
+import { findFile } from '../core';
 
 export const hasRC = async (packageDiff, callback) => {
   if (packageDiff.version && packageDiff.version.after.includes('-rc')) {

@@ -15,8 +15,8 @@ const execValidation = async () => {
   // pipes
   readLocalFile('./log/info.txt', message, 'Leitura do arquivo info.txt');
   updateRequired(modifiedFiles, ['CHANGELOG.md', 'README.md'], warn);
-  roadmap(serviceName, modifiedFiles, danger, message);
   hasRC(packageDiff, fail);
+  roadmap(serviceName, modifiedFiles, danger, message);
 };
 
 execValidation();

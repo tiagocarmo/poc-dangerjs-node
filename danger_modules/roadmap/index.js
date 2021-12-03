@@ -1,6 +1,4 @@
-const findFile = (list, fileName) => list.find((file) => file.includes(fileName));
-
-const cleanStack = (string) => string.replace('+      - ', `\n - `);
+import { findFile, cleanStack } from '../core';
 
 export const roadmap = async (serviceName, modifiedFiles, danger, callback, profile = 'node') => {
   const scriptMessage = [];
