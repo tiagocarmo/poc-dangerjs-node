@@ -1,6 +1,6 @@
 {
   "name": "poc-dangerjs-node",
-  "version": "1.0.0-rc",
+  "version": "1.0.0-rc-danger-test",
   "description": "",
   "main": "dangerfile.js",
   "engines": {

@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "has-rc": 3,
+    "important-files": 1,
+    "npm-outdated": 0,
+    "roadmap": 1
+  },
+  "important-files": [
+    "CHANGELOG.md",
+    "README.md"
+  ]
+}

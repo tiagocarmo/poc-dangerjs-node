@@ -1,6 +1,7 @@
 import { findFile, cleanStack } from '../core';
 
 export const roadmap = async (serviceName, modifiedFiles, danger, callback, profile = 'node') => {
+  if(callback === 0) return ;
   const scriptMessage = [];
   const packageJson = findFile(modifiedFiles, 'package.json');
 
